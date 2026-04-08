@@ -1,6 +1,10 @@
 # Cubemars Debugging Notes
 Getting my AK60-6 and AK70-10 actuators running was challenging (extremely), so I put together a brief writeup showing some of my code and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me to share some documentation.
 
+As a testament to how frustrating this was, here's a screenshot from my X. Prepare to be confused.
+<img width="656" height="239" alt="Screenshot 2026-04-08 at 12 48 36 AM" src="https://github.com/user-attachments/assets/bef4d816-8613-4f8d-a212-2e65ef562b9a" />
+
+
 ## My Hardware
 To get the motors running with this setup, I used the following:
 1. A microcontroller with a CAN bus. I used the NVIDIA Jetson Orin Nano (Super Developer Kit, from Amazon). It's $250 as of 2026, built for AI inference, and has served me very well, but it's not necessary.
