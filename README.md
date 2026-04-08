@@ -14,6 +14,7 @@ To get the motors running with this setup, I used the following:
 You may be wondering: why shift to the seemingly more complex MIT Mode when you can just run it in Servo mode? A few reasons:
 - I found Servo mode to be too "dumb" for my application (a robot arm). In real robotics environments, you will actually want more granular control when  rotating your actuators. To learn more, watch: https://www.youtube.com/watch?v=0ZqeBEa_MWo&t=13s. BTW, this textbook is great for robotics and I believe it's online for free. If you're intimidated, don't worry, I'll provide the code for this fifth-derivative trajectory generation. 
 - Servo mode seemed to introduce some level of latency as I controlled the actuator which made the robot arm I'm building have a jittery motion. MIT Mode, on the other hand, seems to have far less latency.
+- You get more feedback/data using a CAN Bus. 
 ### 2. Can't you just buy the motors with MIT mode pre-installed?
 Yes, actually, you can. And if I had known about that I would have done this. If you haven't bought them yet and plan on using MIT Mode, I believe you can email CubeMars to do this for you when you buy them. However, even if you buy the motors with MIT mode pre-installed, you'll still need the upper computer to define the "names" of your motors so you can control them with CAN Bus.
 
@@ -22,11 +23,21 @@ First, I'll go over how to set everything up, then how to use the CubeMars Softw
 ### 1. Part One: Physical setup for using the Upper Computer
 <img width="551" height="323" alt="Screenshot 2026-04-07 at 10 22 55 PM" src="https://github.com/user-attachments/assets/a11f4e40-a527-427a-8fae-942e91df7fb2" />
 
+This video shows how to connect everything: https://www.youtube.com/watch?v=JjgukaBcMKM
+
 - Power your motors and check that they turn on. The motor should light up where the wires go into the motor when powered.
 - Connect your R-Link to your computer. It will be USB cable --> R-link --> motor. All necessary cables should come with the R-Link. 
 
 ### 2. Part Two: Using Upper Computer to Set Motor Mode to MIT
 The Upper Computer software only works on Windows, so if you plan on running the Upper Computer on a Mac, you're going to want to get Parallels Desktop or a similar Windows emulator.
+
+I won't spend too much time here because I don't have a Parallels Desktop subscription anymore so I can't actually use the Upper Computer. However, there's already a good amount of online content to point you in the right direction, which I'll link below. 
+
+Generally speaking, you will want to switch to MIT mode, calibrate the motor, then "name" your motor by giving it a CAN Bus ID.
+
+Here are some videos that give an overview:
+https://www.youtube.com/watch?v=8ggq5him9Rc&t=222s
+
 
 You can find the download link for the software at https://www.cubemars.com/article.php?id=261.
 
