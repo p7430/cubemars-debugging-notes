@@ -42,6 +42,8 @@ Official CubeMars Youtube Page Upper Computer Introduction (more general): https
 
 You can find the download link for the software at https://www.cubemars.com/article.php?id=261.
 
+#### I HIGHLY recommend downloading the manual (I've attached it to the repo) as it also explains the upper computer a bit.
+
 ### 3. Part Three: Motor Control and Software
 
 
