@@ -33,11 +33,11 @@ The Upper Computer software only works on Windows, so if you plan on running the
 
 I won't spend too much time here because I don't have a Parallels Desktop subscription anymore so I can't actually use the Upper Computer. However, there's already a good amount of online content to point you in the right direction, which I'll link below. 
 
-Generally speaking, you will want to switch to MIT mode, calibrate the motor, then "name" your motor by giving it a CAN Bus ID.
+Generally speaking, you will want to switch to MIT mode (if I remember correctly, there's a tab for this calle "Mode Switch" and you just click the MIT button), calibrate the motor, then "name" your motor by giving it a CAN Bus ID.
 
-Here are some videos that give an overview:
-https://www.youtube.com/watch?v=8ggq5him9Rc&t=222s
-
+#### Here are some videos that give an overview:
+This is the most detailed video I found so far. It walks you through how to switch to MIT Mode (however I believe he skips the calibration stage): https://www.youtube.com/watch?v=5KYqYAnAdCM
+Official CubeMars Youtube Page Upper Computer Introduction (more general): https://www.youtube.com/watch?v=6X0y0op3MJo
 
 You can find the download link for the software at https://www.cubemars.com/article.php?id=261.
 
