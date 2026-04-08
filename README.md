@@ -51,6 +51,9 @@ Now that the actuator(s) are in MIT mode and have CAN IDs, you can actually cont
 <img width="679" height="389" alt="Screenshot 2026-04-08 at 12 23 25 AM" src="https://github.com/user-attachments/assets/0be1bd37-7f9e-4791-8a67-a6518f3aeb4d" />
 <img width="522" height="265" alt="Screenshot 2026-04-08 at 12 24 12 AM" src="https://github.com/user-attachments/assets/51cbcf90-4410-4e8e-a0b2-34f4bcfc0d40" />
 
+My setup for the terminating resistor is pretty simple. I just soldered on the terminating resistor to connect CAN H and CAN L, and wrapped it in electrical tape. If anyone has a more elegant solution... please let me know.
+<img width="690" height="739" alt="Screenshot 2026-04-08 at 12 32 54 AM" src="https://github.com/user-attachments/assets/b0c85f65-a751-4a7d-ba63-92abebcac9ea" />
+
 With that setup, you should be ready to control the motors over CAN Bus. Of course, if your microcontroller and actuators are being powered by different sources you will want to ground them so that there's no electric noise.
 
 With the motors powered and assuming CAN Bus is set up correctly, you should be able to move on to the software. 
