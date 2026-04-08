@@ -11,5 +11,6 @@ To get the motors running with this setup, you're going to need the following:
 ## Overview
 First, I'll go over how to set everything up, then how to use the CubeMars Software (called "Upper Computer"), and finally how to actually control the motors.
 ### 1. Part One: Physical setup
+<img width="551" height="323" alt="Screenshot 2026-04-07 at 10 22 55 PM" src="https://github.com/user-attachments/assets/a11f4e40-a527-427a-8fae-942e91df7fb2" />
 ### 2. Part Two: Using Upper Computer to Set Motor Mode to MIT
 ### 3. Part Three: Motor Control and Software
