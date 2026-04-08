@@ -33,7 +33,7 @@ The Upper Computer software only works on Windows, so if you plan on running the
 
 I won't spend too much time here because I don't have a Parallels Desktop subscription anymore so I can't actually use the Upper Computer. However, there's already a good amount of online content to point you in the right direction, which I'll link below. 
 
-Generally speaking, you will want to switch to MIT mode if you're in Servo mode (there's a tab for this called "Mode Switch" and you just click the MIT button), calibrate the motor, then "name" your motor by giving it a CAN Bus ID. Side note, if I'm remembering correctly, to calibrate and name your motor, you will need to click "Debug" in MIT mode, which will open a terminal an you type commands like "calibrate".
+Generally speaking, you will want to switch to MIT mode if you're in Servo mode (there's a tab for this called "Mode Switch" and you just click the MIT button), calibrate the motor, then "name" your motor by giving it a CAN Bus ID. Side note, if I'm remembering correctly, to calibrate and name your motor, you will need to click "Debug" in MIT mode, which will open a terminal where you type commands like "calibrate".
 
 #### Here are some videos that give an overview:
 This is the most detailed explanation I've found so far. It walks you through how to switch to MIT Mode (however I believe he skips the calibration stage): https://www.youtube.com/watch?v=5KYqYAnAdCM
