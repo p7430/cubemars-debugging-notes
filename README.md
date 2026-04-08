@@ -3,7 +3,7 @@ Getting these CubeMars AK60-6 and AK70-10 actuators running was pretty challengi
 
 ## My Hardware
 To get the motors running with this setup, I used the following:
-1. Any microcontroller with a CAN bus. I used the NVIDIA Jetson Orin Nano (Super Developer Kit, from Amazon). It's $250 as of 2026, built for AI inference, and has served me very well, but it's not necessary.
+1. A microcontroller with a CAN bus. I used the NVIDIA Jetson Orin Nano (Super Developer Kit, from Amazon). It's $250 as of 2026, built for AI inference, and has served me very well, but it's not necessary.
 2. CAN transceiver module. I used the SN65HVD230 CAN transceiver board (3.3V). 
 3. The RUBIK LINK V2.0. There are multiple version of the Rubik Link, so just make sure the one you're buying is compatible with the motors you have. 
 4. A 120 Ω resistor.
