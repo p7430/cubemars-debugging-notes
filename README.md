@@ -1,4 +1,4 @@
-## Cubemars Debugging Notes
+# Cubemars Debugging Notes
 Getting these CubeMars AK60-6 and AK70-10 actuators running was pretty challenging, so I put together some of my code, tips, and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me about for a guide.
 
 ## My Hardware
@@ -10,6 +10,6 @@ To get the motors running with this setup, you're going to need the following:
 
 ## Overview
 This guide will be structured as such:
-# 1. Part One: Physical setup
-# 2. Part Two: Setting Motor Mode to MIT
-# 3. Part Three: Motor Control and Software
+### 1. Part One: Physical setup
+### 2. Part Two: Setting Motor Mode to MIT
+### 3. Part Three: Motor Control and Software
