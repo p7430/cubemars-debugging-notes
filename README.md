@@ -25,6 +25,8 @@ Yes, actually, you can. Just email CubeMars to send you one with MIT mode preins
 ## Overview
 First, I'll go over how to set everything up, then how to use the CubeMars Software (called "Upper Computer"), and finally how to actually control the motors.
 ### 1. Part One: Physical setup for using the Upper Computer
+The "Upper Computer" is CubeMars' proprietary software used to setup, calibrate, update the firmware, and test the motors. 
+
 <img width="551" height="323" alt="Screenshot 2026-04-07 at 10 22 55 PM" src="https://github.com/user-attachments/assets/a11f4e40-a527-427a-8fae-942e91df7fb2" />
 
 This video shows how to connect everything: https://www.youtube.com/watch?v=JjgukaBcMKM
