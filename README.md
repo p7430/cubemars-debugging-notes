@@ -15,7 +15,7 @@ You may be wondering: why shift to the seemingly more complex MIT Mode when you 
 - I found Servo mode to be too "dumb" for my application (a robot arm). In real robotics environments, you will actually want more granular control when  rotating your actuators. To learn more, watch: https://www.youtube.com/watch?v=0ZqeBEa_MWo&t=13s. BTW, this textbook is great for robotics and I believe it's online for free. If you're intimidated, don't worry, I'll provide the code for this fifth-derivative trajectory generation. 
 - Servo mode seemed to introduce some level of latency as I controlled the actuator which made the robot arm I'm building have a jittery motion. MIT Mode, on the other hand, seems to have far less latency.
 ### 2. Can't you just buy the motors with MIT mode pre-installed?
-Yes, actually, you can. And if I had known about that I would have done this. If you haven't bought them yet and plan on using MIT Mode, I believe you can email CubeMars to do this for you when you buy them.
+Yes, actually, you can. And if I had known about that I would have done this. If you haven't bought them yet and plan on using MIT Mode, I believe you can email CubeMars to do this for you when you buy them. However, even if you buy the motors with MIT mode pre-installed, you'll still need the upper computer to define the "names" of your motors so you can control them with CAN Bus.
 
 ## Overview
 First, I'll go over how to set everything up, then how to use the CubeMars Software (called "Upper Computer"), and finally how to actually control the motors.
