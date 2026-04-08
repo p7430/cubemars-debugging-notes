@@ -37,6 +37,7 @@ Generally speaking, you will want to switch to MIT mode if you're in Servo mode 
 
 #### Here are some videos that give an overview:
 This is the most detailed video I found so far. It walks you through how to switch to MIT Mode (however I believe he skips the calibration stage): https://www.youtube.com/watch?v=5KYqYAnAdCM
+
 Official CubeMars Youtube Page Upper Computer Introduction (more general): https://www.youtube.com/watch?v=6X0y0op3MJo
 
 You can find the download link for the software at https://www.cubemars.com/article.php?id=261.
