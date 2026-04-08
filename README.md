@@ -12,7 +12,7 @@ To get the motors running with this setup, I used the following:
 ## Prelude: Motivations
 ### 1. Why MIT Mode?
 You may be wondering: why shift to the seemingly more complex MIT Mode when you can just run it in Servo mode? A few reasons:
-- I found Servo mode to be too "dumb" for my application (a robot arm). In real robotics environments, you will actually want more granular control when  rotating your actuators. To learn more, watch: https://www.youtube.com/watch?v=0ZqeBEa_MWo&t=13s. BTW, this textbook is great for robotics and I believe it's online for free. If you're intimiated, don't worry, I'll provide the code for this fifth-derivative trajectory generation. 
+- I found Servo mode to be too "dumb" for my application (a robot arm). In real robotics environments, you will actually want more granular control when  rotating your actuators. To learn more, watch: https://www.youtube.com/watch?v=0ZqeBEa_MWo&t=13s. BTW, this textbook is great for robotics and I believe it's online for free. If you're intimidated, don't worry, I'll provide the code for this fifth-derivative trajectory generation. 
 - Servo mode seemed to introduce some level of latency as I controlled the actuator which made the robot arm I'm building have a jittery motion. MIT Mode, on the other hand, seems to have far less latency.
 ### 2. Can't you just buy the motors with MIT mode pre-installed?
 Yes, actually, you can. And if I had known about that I would have done this. If you haven't bought them yet and 
