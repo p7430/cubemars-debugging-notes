@@ -43,6 +43,14 @@ Official CubeMars Youtube Page Upper Computer Introduction (more general): https
 You can find the download link for the software at https://www.cubemars.com/article.php?id=261.
 
 ### 3. Part Three: Motor Control and Software
+Now that the actuator(s) are in MIT mode and have CAN IDs, you can actually control them. 
+1. Start by disconnecting them from the R-Link
+2. Conenct them to your controller. I'm using a Jetson Orin Nano, so I attached my CAN Bus Transceiver to the Jetson Orin Nano, and then added a terminating resistor connecting CAN High and CAN Low. If you're unfamiliar with how CAN Bus actually works, I highly recommend watching some videos to understand the setup:
+- https://www.youtube.com/watch?v=JZSCzRT9TTo
+- Here's a diagram of what your setup should look like with one or multiple motors (the diagram says two but you would keep chaining motors as pictured):
+<img width="679" height="389" alt="Screenshot 2026-04-08 at 12 23 25 AM" src="https://github.com/user-attachments/assets/0be1bd37-7f9e-4791-8a67-a6518f3aeb4d" />
+<img width="522" height="265" alt="Screenshot 2026-04-08 at 12 24 12 AM" src="https://github.com/user-attachments/assets/51cbcf90-4410-4e8e-a0b2-34f4bcfc0d40" />
+
 I have attached code to the repo (ROS2) that I use for my robot arm that does the following:
 #### 1. mit_motor_driver.py
 - Motor startup code. Essentially, it 'deactivates' the motors so they can't move (and therefore can't do any abrupt movements before being calibrated), calibrates them by setting the origin to the current position, and then 'reactivates' them. This prevents them from jerking to a random position, which could be dangerous on startup.
