@@ -22,7 +22,8 @@ First, I'll go over how to set everything up, then how to use the CubeMars Softw
 ### 1. Part One: Physical setup for using the Upper Computer
 <img width="551" height="323" alt="Screenshot 2026-04-07 at 10 22 55 PM" src="https://github.com/user-attachments/assets/a11f4e40-a527-427a-8fae-942e91df7fb2" />
 
-a. Power your motors and check that they turn on. You can see a light where the wires go into the motor / connect to a drive board.
+a. Power your motors and check that they turn on. The motor should light up where the wires go into the motor.
+b. Connect your R-Link to your computer. It will be USB cable --> R-link --> motor. All necessary cables should come with the R-Link. 
 
 ### 2. Part Two: Using Upper Computer to Set Motor Mode to MIT
 The Upper Computer software only works on Windows, so if you plan on running the Upper Computer on a Mac, you're going to want to get Parallels Desktop or a similar Windows emulator.
