@@ -9,7 +9,7 @@ To get the motors running with this setup, you're going to need the following:
 4. A 120 Ω resistor.
 
 ## Overview
-This guide will be structured as such:
+First, I'll go over how to set everything up, then how to use the CubeMars Software (called "Upper Computer"), and finally how to actually control the motors.
 ### 1. Part One: Physical setup
 ### 2. Part Two: Setting Motor Mode to MIT
 ### 3. Part Three: Motor Control and Software
