@@ -53,6 +53,6 @@ I have attached code to the repo (ROS2) that I use for my robot arm that does th
 
 ### Some words of caution & a disclaimer:
 1. The AK series motors are pretty powerful, so when you start testing them, I HIGHLY recommend not having anything attached to them as they may move unpredictably. When I first started experimenting with these I naively did have some stuff attached to one (a metal rod, essentially). Now I have a dent in my wall to show for it.
-2. This is meant for educational purposes, don't sue me, this is not meant to be advice. 
+2. This is meant for educational purposes only, it is not meant to be advice. 
 
 
