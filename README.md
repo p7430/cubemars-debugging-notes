@@ -1,11 +1,11 @@
 # Cubemars Debugging Notes
-Getting my AK60-6 and AK70-10 actuators running was challenging (extremely), so I put together a brief write up showing some of my code, tips, and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me for a guide.
+Getting my AK60-6 and AK70-10 actuators running was challenging (extremely), so I put together a brief writeup showing some of my code, tips, and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me for a guide.
 
 ## My Hardware
 To get the motors running with this setup, I used the following:
 1. A microcontroller with a CAN bus. I used the NVIDIA Jetson Orin Nano (Super Developer Kit, from Amazon). It's $250 as of 2026, built for AI inference, and has served me very well, but it's not necessary.
 2. CAN transceiver module. I used the SN65HVD230 CAN transceiver board (3.3V). 
-3. The RUBIK LINK V2.0. There are multiple version of the Rubik Link, so just make sure the one you're buying is compatible with the motors you have. 
+3. The RUBIK LINK V2.0. There are multiple versions of the Rubik Link (R-Link), so just make sure the one you're buying is compatible with the motors you have. 
 4. A 120 Ω resistor.
 5. A power supply. I used the MEAN WELL RSP-500-24 AC-DC Switching Enclosed Power Supply.
 
@@ -54,7 +54,7 @@ Now that the actuator(s) are in MIT mode and have CAN IDs, you can actually cont
 My setup for the terminating resistor is pretty simple. I just soldered on the terminating resistor to connect CAN H and CAN L, and wrapped it in electrical tape. If anyone has a more elegant solution... please let me know.
 <img width="690" height="739" alt="Screenshot 2026-04-08 at 12 32 54 AM" src="https://github.com/user-attachments/assets/b0c85f65-a751-4a7d-ba63-92abebcac9ea" />
 
-With that setup, you should be ready to control the motors over CAN Bus. Of course, if your microcontroller and actuators are being powered by different sources you will want to ground them so that there's no electric noise.
+With that setup, you should be ready to control the motors over CAN Bus. Of course, if your microcontroller and actuators are being powered by different sources you will want to ground them to avoid ground loops.
 
 With the motors powered and assuming CAN Bus is set up correctly, you should be able to move on to the software. 
 
