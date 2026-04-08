@@ -1,7 +1,7 @@
 # Cubemars Debugging Notes
 Getting my AK60-6 and AK70-10 actuators running was challenging (extremely), so I put together a brief writeup showing some of my code and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me to share some documentation.
 
-As a testament to how frustrating this was, here's a screenshot from my X. Prepare to be confused.
+As a testament to how long it took me to figure this out, here's a screenshot from my X. 
 <img width="656" height="239" alt="Screenshot 2026-04-08 at 12 48 36 AM" src="https://github.com/user-attachments/assets/bef4d816-8613-4f8d-a212-2e65ef562b9a" />
 
 
