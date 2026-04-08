@@ -16,7 +16,7 @@ You may be wondering: why shift to the seemingly more complex MIT Mode when you 
 - Servo mode seemed to introduce some level of latency as I controlled the actuator which made the robot arm I'm building have a jittery motion. MIT Mode, on the other hand, seems to have far less latency.
 - You get more feedback/data using a CAN Bus. 
 ### 2. Can't you just buy the motors with MIT mode pre-installed?
-Yes, actually, you can. And if I had known about that I would have done this. If you haven't bought them yet and plan on using MIT Mode, I believe you can email CubeMars to do this for you when you buy them. However, even if you buy the motors with MIT mode pre-installed, you'll still need the upper computer to define the "names" of your motors so you can control them with CAN Bus.
+Yes, actually, you can. Just email CubeMars to send you one with MIT mode preinstalled when you buy them. However, even if you buy the motors with MIT mode pre-installed, you'll still need the upper computer to define the "names" (CAN_ID) of your motors so you can control them over CAN Bus.
 
 ## Overview
 First, I'll go over how to set everything up, then how to use the CubeMars Software (called "Upper Computer"), and finally how to actually control the motors.
