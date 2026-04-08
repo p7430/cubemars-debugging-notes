@@ -1,4 +1,4 @@
-## cubemars-debugging-notes
+## Cubemars Debugging Notes
 Getting these CubeMars AK60-6 and AK70-10 actuators running was pretty challenging, so I put together some of my code, tips, and hardware to help others. I did this a few months ago and posted about it on Reddit and since then many people have been asking me about for a guide.
 
 ## My Hardware
